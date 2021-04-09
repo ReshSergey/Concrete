@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // &__contacts {
+    //     font-weight: 600;
+    //     font-size: 24px;
+    //     a {
+    //         color: #333333;
+    //         text-decoration: none;
+    //         &:hover {
+    //             color: #333333;
+    //             text-decoration: none;
+    //         }
+    //     }
+    // }
+    &__nav {
+        width: 443px;
+        height: 18px;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        font-weight: 500;
+        font-size: 18px;
+        a {
+            color: #333333;
+            text-decoration: none;
+            &:hover {
+                color: #333333;
+                text-decoration: none;
+            }
+        }
+    }
+}
